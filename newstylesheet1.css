@@ -64,6 +64,23 @@ figure{
     margin: 0;
 }
  
+footer a:link{
+    color:#8469F7;
+    font-weight: bold;
+}
+    footer a:visited{
+        color:#a38ff9;
+    }
+    footer a:hover{
+        -webkit-transform: scale(2.2);
+        -ms-transform: scale(2.2);
+        -moz-transform: scale(2.2); 
+        transform: scale(2.2);
+        color:#BC99FD;
+    }
+    footer a:active{
+        color:#BC99FD;
+    }
 
 /* class */
 
@@ -199,8 +216,6 @@ figure{
 
 .boxrowstyle1{
     border:solid 2px #d1c7fc;
-    
-    
 }
 .boxrowx3button{
     background: #42357b;
@@ -211,7 +226,10 @@ figure{
     font-family: sans-serif;
    
 }
-
+.boxrowx3button:hover{
+    background: #634FB9;
+    color:#110d1f;
+}
 .boxrowx3{
     width:33.1%;    
     margin-left: 5px;
@@ -420,7 +438,7 @@ figure{
     }
 
 .purpletext{
-    color:#6958e4;
+    color:#42357b;
 }
 
 .separadora{
