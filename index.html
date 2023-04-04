@@ -4,34 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive!</title>
+    <title>Welcome to Ollin Designs</title>
     <link rel="icon" href="imagenes/sextosol.jpg">
     <link rel="stylesheet" href="stylesheet.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-    <header>
-        <div id="navbarheader">
-            <div id="navbarheaderlogo">
-                <img src="imagenes/Ollin logo letras.png" alt="Ollin logo">
+    <header>    
+        <div class="px160">
+            <div id="headerlogo">
+                <img src="img/Ollin logo letras.png" alt="Ollin logo with letters">
+    
             </div>
-
-            <div class="flexcontainerendright">
-                <div id="navbarnav">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a>  </li>  
-                            <li><a href="https://ollindesigns.github.io/websiteOllinDesigns/portfolio.html">Portfolio</a> </li>
-                            <li> <a href="">Profile</a> </li>
-                            <li> <a href="">Contact</a> </li>
-                        </ul>
-                    </nav>
-                    <div>
-                    </div>
-                </div>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">Portolio</a>
+                <a href="#contact">Work Profile</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
+            <script src="js1ollinhamburger.js"></script>
         </div>
-        
         <div class ="px160">
             <div id="languagenicons">
                 <div class="chooselanguage">
@@ -40,10 +36,10 @@
                 </div>
                 <div class="socialmediaicons">
                     <div class="socialmediaframe">
-                        <a href=""><img src="imagenes/icongithub.png" alt="GitHub icon"> </a>
+                        <a href=""><img src="img/icongithub.png" alt="GitHub icon"> </a>
                     </div>
                     <div class="socialmediaframeend">
-                    <a href=""><img id="linkedinicon" src="imagenes/linkedinicon-1600.png" alt="linkedin icon"> </a>
+                    <a href=""><img id="linkedinicon" src="img/linkedinicon-1600.png" alt="linkedin icon"> </a>
                     </div>
                 </div>
 
@@ -54,7 +50,6 @@
     <main>
         <section>
             <div class="px160">
-                <p>px160</p>
                 <div class="flexcontainer">
                     <div class="boxrowx3left" id="bannerbox">
                         <div id="bannerboxpadding">
@@ -69,7 +64,7 @@
                     </div>
                     <div class="boxrowx3" id="purpleollin">
                         <br id="whatdisplay1">
-                        <img src="imagenes/ollinmorado(1).png" alt="this is the Ollin" id="purpleollin">
+                        <img src="img/ollinmastermedicrepnglow.png" alt="this is the Ollin" id="purpleollin">
                     </div>
 
                     <div class="boxrowx3right">
@@ -94,7 +89,7 @@
                             <div class="box1indexcontflex">                 
                                 
                                 <div class="flexcolumnitemleft">
-                                    <figure><img src="imagenes/teresahome.png" alt="Teresa Cataldo"> </figure>                                 
+                                    <figure><img src="img/teresahome.png" alt="Teresa Cataldo"> </figure>                                 
                                     <div class="itemcontentlight">
                                         <h2>Website optimization</h2>
                                         <br>
@@ -104,27 +99,24 @@
                             </div>
 
                             <div class="box2indexcontflex">
-                            
                                 <div class="flexcolumnitem">
-                                    <figure><img src="imagenes/fontsforwebsites.png" alt="fonts for websites"></figure> 
-                                    
+                                    <figure><img src="img/fontsforwebsites.png" alt="fonts for websites"></figure> 
                                     <div class="itemcontentlight">
                                         <h2>Responsive web design</h2>
                                         <br>
                                         <p>Fonts, colors and other important things to consider for responsive design.</p>
                                     </div>
-                                </div>
-                                                              
+                                </div>                             
                             </div>
-                        
                         </div> <!-- end of div flexdirection row -->
+
                         <br id="whatdisplay">
                         <hr class="separadora">
                         <br id="whatdisplay">
                         <div class="flexcolumnitemalone">
                             <div class="flexcontainerindex">
                                 <div class="boxrowx3leftindex">
-                                    <figure><img src="imagenes/HTML5_logo_and_wordmark.svg(1).png" alt="Html icon"></figure> 
+                                    <figure><img src="img/HTML5_logo_and_wordmark.svg(1).png" alt="Html icon"></figure> 
                                     
                                     <div class="itemcontentlight">
                                         <h2>Source code in HTML</h2><br>
@@ -134,7 +126,7 @@
                                 </div>
                                 <div class="boxrowx3index">
                                     
-                                    <figure><img src="imagenes/Javascript icons(1).png" alt="JavaScript icon"></figure> 
+                                    <figure><img src="img/Javascript icons(1).png" alt="JavaScript icon"></figure> 
                                     <div class="itemcontentlight">
                                         <h2>Dynamic content with JavaScript</h2><br>
                                         <p id="whatdisplay">Dynamic and functional pages with the use of this scripting language.</p>
@@ -144,14 +136,13 @@
             
                                 <div class="boxrowx3rightindex" id="whatdisplay">
                                     
-                                    <figure><img src="imagenes/css icon(1).png" alt="css icon"></figure> 
+                                    <figure><img src="img/css icon(1).png" alt="css icon"></figure> 
                                     <div class="itemcontentlight">
                                         <h2>Harmonic and responsive design with CSS</h2><br>
                                         <p>Nice, functional layouts through Cascading Style Sheets.</p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <br id="whatdisplay">
                         <hr class="separadora">
@@ -159,7 +150,7 @@
                         <div class="flexdirectionrow">
                             <div class="box1indexcontflex">                 
                                 <div class="flexcolumnitemleft">
-                                    <figure><img src="imagenes/r209home2.JPG" alt="R-209"></figure>
+                                    <figure><img src="img/r209home2.JPG" alt="R-209"></figure>
                                     <div class="itemcontentlight">
                                         <h2>R-209 in Wordpress</h2>
                                         <br>
@@ -171,7 +162,7 @@
                             <div class="box2indexcontflex">
                             
                                 <div class="flexcolumnitem">
-                                    <figure><img src="imagenes/weblamorsa.png" alt="la web de la morsa"></figure>
+                                    <figure><img src="img/weblamorsa.png" alt="la web de la morsa"></figure>
                                 
                                     <div class="itemcontentlight">
                                         <h2>Walrus in GoogleSites</h2>
@@ -184,15 +175,12 @@
                        <hr class="separadora" id="whatdisplay1">
                     </div> <!--end of div flexcontainercolumn66-->
 
-
-                    
                     <div id="indexasidecontflex">
                         <aside>
                             <div id="asidetop">
                                 <h2>Menu</h2> 
                             </div>
                             <div>
-                                
                                 <div class="flexcolumnitemaside">
                                     <a href="/media/user/externo/gato/web-dev/_mis recursos/githubsync/websiteOllinDesigns/portfolio.html">
                                     <div class="itemcontentaside">
@@ -305,7 +293,7 @@
 
                         <div class="flexcontainercolumn">
                             <div class="flexcolumnitem">
-                                <figure><img src="imagenes/animalgame.png" alt="Animal game"></figure>
+                                <figure><img src="img/animalgame.png" alt="Animal game"></figure>
                             </div>
                             <div class="flexcolumnitem">
                             </div>
@@ -375,7 +363,7 @@
                 </div>
                 <br>
                 <div class="boxrowx3 centro">
-                    <figure><img src="imagenes/Ollin logo letras.png" alt="Ollin Websites" id="footerlogo"></figure>
+                    <figure><img src="img/Ollin logo letras.png" alt="Ollin Websites" id="footerlogo"></figure>
                     <br>
                     <div class="sanserif">
                         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

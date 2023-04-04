@@ -687,7 +687,6 @@ footer a:link{
             color:#6958e4;
             margin-right:8px;
             /* background-color: #a38ff9; */
-            line-height: 50px;
         }
 
     .topnav.responsive {
@@ -700,7 +699,6 @@ footer a:link{
           right: 0;
           top: 0;
           background: #0d0f13;
-         
         }
         .topnav.responsive a {
           float: none;
