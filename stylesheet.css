@@ -649,6 +649,21 @@ footer a:link{
         width: 70%;
     }
 
+      @media (prefers-reduced-motion: no-preference) {
+        #purpleollin img {
+          animation: purpleollin-spin infinite 20s linear;
+        }
+      }
+
+      @keyframes purpleollin-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
 #footerlogo{
     height:20%;
 }
