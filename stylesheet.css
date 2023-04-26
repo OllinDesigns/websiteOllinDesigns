@@ -489,17 +489,18 @@ font-family: 'Roboto', sans-serif; */
     margin-left: 0px;
     padding-left: 0px;
     color: #F0ECFE;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
     #bannerbox h2{
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
         font-size: 1.2em;
         color:#8469F7;
-        font-weight: 300;
+        font-weight: 500;
     }
     #bannerbox p{
         font-size: 1.1em;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family:'Roboto', Arial, sans-serif;
+        font-weight: 300;
     }
     #bannerbox button{
         width: 97%;
@@ -524,6 +525,7 @@ font-family: 'Roboto', sans-serif; */
 #bannerboxpadding{
     padding: 10px;
 }
+  
 
 #lightmain{
     background:#F0ECFE ;
@@ -902,7 +904,14 @@ font-family: 'Roboto', sans-serif; */
         padding-bottom: 25px;
         background: #F0ECFE;
         color: #0d0f13;
+        font-weight: 400;
     }
+        .itemcontentlight h2{
+            font-family: 'Montserrat', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1.1em;
+            /* font-weight: bold; */
+            color: #42357b;
+        }
 
     .box1indexcontflex {
         width: 50%;
@@ -1087,11 +1096,12 @@ font-family: 'Roboto', sans-serif; */
             font-family: 'Montserrat', Arial, Helvetica, sans-serif;
             font-size: 1.2em;
             color:#8469F7;
-            font-weight: 300;
+            font-weight: 500;
         }
         #bannerbox p{
             font-size: 1.1em;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family:'Roboto', Arial, sans-serif;
+            font-weight: 300;
         }
     
     #indexasidecontflex{
