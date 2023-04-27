@@ -276,7 +276,7 @@ footer a:link{
         }
 
 .itemcontentaside{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Roboto', Arial, sans-serif;
     padding: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -937,7 +937,7 @@ font-family: 'Roboto', sans-serif; */
     }
 
     .itemcontentaside{
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family:'Roboto', Arial, sans-serif;
         padding: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -1169,6 +1169,14 @@ font-family: 'Roboto', sans-serif; */
         height: 101px;
         width: 92px;
         margin-top: 7px;
+    }
+
+    #designdesk{
+        height: 150px;
+    }
+
+    #responsivewebdesign{
+        height: 150px;
     }
 
 }
